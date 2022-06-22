@@ -1,3 +1,51 @@
-  <button type="button" class="btn btn-primary btn-lg btn-block mt-4" onclick="multiply()">
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="calculator.css" />
+<script src="calculator.js"></script>
+</head
+<body>
+  <header>
+        <!-- Image and text -->
+        <nav class="navbar navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./header-logo.png" alt="" class="d-inline-block align-top header-logo" />
+                <span class="mt-4">GitDemo</span>
+            </a>
+        </nav>
+    </header>
+<div class="container">
+<div class="card text-center">
+<div class="card-header">
+<h2>Simple Calculator</h2>
+</div>
+<div class="card-body">
+<div class="input-group">
+<input type="number" class="form-control ml-4" placeholder="First number" id="firstNumber" />
+<input type="number" class="form-control ml-4" placeholder="Second number" id="secondNumber" />
+<input type="number" class="form-control ml-4" placeholder="Result" id="result" />
+</div>
+<div class="calculator-btn mx-auto p-4">
+   <button type="button" class="btn btn-primary btn-lg btn-block" onclick="add()">
+                        Add
+</button>
+  <button type="button" class="btn btn-primary btn-lg btn-block mt-4" onclick="subtract()">
+                        Subtract
+  </button>
+   <button type="button" class="btn btn-primary btn-lg btn-block mt-4" onclick="multiply()">
                         Multiply
    </button>
+</div>
+</div>
+</div>
+   <div class="footer">
+            <img src="./footer-logo.svg" class="footer-img" />
+            &copy; Copyright 2021 Maveric Systems Limited
+  </div>
+</body>
+</html>
+
+
+
